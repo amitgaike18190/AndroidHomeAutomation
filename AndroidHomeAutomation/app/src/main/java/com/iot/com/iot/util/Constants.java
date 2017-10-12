@@ -8,7 +8,7 @@ import iot.accenture.com.iotapplication.MainActivity;
 
 public class Constants {
     public  String heatingControlUrl="HEATINGCONTROL";
-    public  String humidityControlUrl="HUMIDITYSENSOR";
+    public  String humidityControlUrl="HUMIDITSENSOR";
     public  String tempratureControlUrl="TEMPERATURE_SENSOR";
     public  String baseUrlStart="http://"+MainActivity.ipAddress+":"+MainActivity.port+"/om2m/gscl/applications/";
     public  String baseUrlEnd="/containers/DATA/latest/content";
