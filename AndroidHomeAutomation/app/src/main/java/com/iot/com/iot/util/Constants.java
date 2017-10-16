@@ -11,7 +11,7 @@ public class Constants {
     public  String humidityControlUrl="HUMIDITSENSOR";
     public  String tempratureControlUrl="TEMPERATURE_SENSOR";
     public  String baseUrlStart="http://"+MainActivity.ipAddress+":"+MainActivity.port+"/om2m/gscl/applications/";
-    public  String baseUrlEnd="/containers/DATA/latest/content";
+    public  String baseUrlEnd="/containers/DATA/lates/content";
     public  String authorizationBasicParamValue="YWRtaW46YWRtaW4";
 
 
