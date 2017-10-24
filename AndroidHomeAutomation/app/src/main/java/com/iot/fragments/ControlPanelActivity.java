@@ -162,7 +162,7 @@ public class ControlPanelActivity extends Activity{
                 Log.d("Temperature=",temprature);
                 temperatureBtn.setText(temprature+"°C");
                 if(temprature!=null && !temprature.equalsIgnoreCase("")) {
-                    if (Util.isTempratureAboveThreshold(temprature)) {
+                    if (!Util.isTempratureAboveThreshold(temprature)) {
                         heatingControl.setChecked(true);
                     } else {
                         heatingControl.setChecked(false);
