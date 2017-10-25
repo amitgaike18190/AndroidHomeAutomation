@@ -124,6 +124,7 @@ public class ControlPanelActivity extends Activity{
                         e.printStackTrace();
                     }
                     new getTempratureParamsAsyncTask().execute();
+					
                 }
             }
         }
